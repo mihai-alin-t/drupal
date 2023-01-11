@@ -5,7 +5,9 @@
 # Ignore configuration files that may contain sensitive information
 /sites/*/*settings*.php
 /sites/*/*services*.yml
+web/sites/default/settings.local.php
 .ddev/
+.idea/
 
 # Ignore paths that may contain user-generated content
 /sites/*/files
@@ -13,6 +15,9 @@
 /sites/*/private
 /sites/*/files-public
 /sites/*/files-private
+web/modules/contrib/
+web/sites/default/files/
+
 
 # Ignore paths that may contain temporary files
 /sites/*/translations
