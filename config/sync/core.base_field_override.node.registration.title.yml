@@ -1,0 +1,18 @@
+uuid: 4011372c-6d66-48e2-8eea-cdaa7a5dc44d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.registration
+id: node.registration.title
+field_name: title
+entity_type: node
+bundle: registration
+label: 'Employee Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

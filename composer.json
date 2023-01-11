@@ -17,6 +17,8 @@
     "require": {
         "composer/installers": "^2.0",
         "drupal/admin_toolbar": "^3.3",
+        "drupal/config_ignore": "^2.3",
+        "drupal/config_split": "^1.9",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-recommended": "^10.0",
         "drush/drush": "^11.4"

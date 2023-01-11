@@ -1,0 +1,14 @@
+uuid: ae0de570-f07a-4ba8-9cdf-d71d19fd51cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - ausy_events_registration
+    - block
+id: department_manager
+label: 'Department manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'administer blocks'
+  - 'manage event registrations'

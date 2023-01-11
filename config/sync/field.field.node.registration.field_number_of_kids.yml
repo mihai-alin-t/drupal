@@ -1,0 +1,23 @@
+uuid: bcfeb60d-8738-4585-a272-8a4a087445db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_of_kids
+    - node.type.registration
+id: node.registration.field_number_of_kids
+field_name: field_number_of_kids
+entity_type: node
+bundle: registration
+label: 'Number of Kids'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

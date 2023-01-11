@@ -1,0 +1,21 @@
+uuid: 0d8f1f41-af4b-44bf-9623-dfc12959b7cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_plus_one
+    - node.type.registration
+  module:
+    - options
+id: node.registration.field_plus_one
+field_name: field_plus_one
+entity_type: node
+bundle: registration
+label: 'Plus one'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

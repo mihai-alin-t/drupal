@@ -1,0 +1,4 @@
+services:
+  ausy_events_registration.registered_events_total:
+    class: Drupal\ausy_events_registration\EventsRegistrationService
+    arguments: []

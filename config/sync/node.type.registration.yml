@@ -1,0 +1,18 @@
+uuid: def4b5c7-dfd7-4547-9adb-25ff75807c18
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Registration
+type: registration
+description: 'This content type stores data from the "AUSY Event Registration" custom form.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

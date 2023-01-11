@@ -1,0 +1,6 @@
+name: Ausy Events Registration module
+description: Provide an "AUSY family registration" form for Ausy employs.
+package: AUSY Modules
+
+type: module
+core_version_requirement: ^9.4 || ^10
