@@ -43,4 +43,13 @@ class EventsRegistrationService {
     }
   }
 
+   /**
+   * Get Department by machine name.
+   */
+  public static function getDepartmentFromMachineName($department_machine_name): string {
+    $department = \Drupal::config('ausy_events_registration.departments');
+
+    return $department->get($department_machine_name);
+  }
+
 }

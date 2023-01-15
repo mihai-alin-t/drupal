@@ -79,11 +79,11 @@ class EventRegistrationForm extends FormBase {
       '#required' => TRUE,
     ];
 
-    if (isset($departments['aussy_departments'][$department])) {
+    if ($department_exits) {
       $form['department'] = [
         '#type' => 'hidden',
         '#name' => 'department',
-        '#value' => $departments['aussy_departments'][$department],
+        '#value' => EventsRegistrationService::getDepartmentFromMachineName($department),
       ];
     }
 
